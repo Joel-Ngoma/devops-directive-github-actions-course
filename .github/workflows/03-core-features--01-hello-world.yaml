@@ -18,7 +18,7 @@ jobs:
   say-hello-inline-action:
     runs-on: ubuntu-24.04
     steps:
-      - uses: action/hello-world-javascript-action@v1.1
+      - uses: actions/hello-world-javascript-action@081a6d193d1dcb38460df1e6927486d748730f9d
         with:
           who-to-greet: "from an action in the Github Action Marketplace!"
 
